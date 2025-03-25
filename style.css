@@ -1,0 +1,41 @@
+div{
+    border: dotted;
+    border-top-style: solid;
+    border-color: blueviolet;
+    border-radius: 20px;
+    box-shadow: -4px 4px 8px #000;
+    background-color: aqua;
+}
+
+button{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border-radius: 100px;
+}
+
+p{
+    color: black;
+    color: rgb(red, green, blue)
+}
+
+.saskeuchiha{
+    background-image: url(images/saske.jpg);
+    width: 600px;
+    height: 500px;
+    background-position: left;
+    margin: 0 auto;
+    background-attachment: fixed;
+    
+}
+
+body{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 29%, rgba(0,212,255,1) 100%);
+}
+
+.gradiente{
+    width: 600px;
+    height: 200px;
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    margin: 0 auto;
+}
