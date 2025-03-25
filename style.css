@@ -1,41 +1,117 @@
-div{
-    border: dotted;
-    border-top-style: solid;
-    border-color: blueviolet;
+.titulo_1{
+    text-align: center;
+}
+
+.cuadro{
+    background-color: green;
+    border: 5px, solid, black;
     border-radius: 20px;
-    box-shadow: -4px 4px 8px #000;
-    background-color: aqua;
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
 }
 
-button{
-    width: 100px;
-    height: 100px;
-    background-color: blue;
-    border-radius: 100px;
+.titulo_2{
+    text-align: center;
 }
 
-p{
-    color: black;
-    color: rgb(red, green, blue)
+.sombras{
+    background-color: yellow;
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+    box-shadow: 10px 10px 8px #000;
 }
 
-.saskeuchiha{
+.titulo_3{
+    text-align: center;
+}
+
+.caja_1{
+    background-color: #c55b1d;
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.caja_2{
+    background-color: #3ccf37;
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.caja_3{
+    background-color: #293ce6;
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+}
+
+.titulo_4{
+    text-align: center;
+}
+
+.colores_hsl{
+    background-color: hsl(120,100%,50%);
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+}
+
+.titulo_5{
+    text-align: center;
+}
+
+.colores_rgb{
+    background-color: rgb(33, 153, 201);
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.colores_rgba{
+    background-color: rgb(196, 66, 109);
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+}
+
+.titulo_6{
+    text-align: center;
+}
+
+.fondo_y_background_positions_and_size{
     background-image: url(images/saske.jpg);
+    background-position: center;
+    width: 500px;
+    height: 350px;
+    margin: 0 auto;
+}
+
+.titulo_8{
+    text-align: center;
+}
+
+.background_attachment{
+    background-image: url(images/mar.jpg);
     width: 600px;
-    height: 500px;
-    background-position: left;
+    height: 350px;
     margin: 0 auto;
     background-attachment: fixed;
-    
+
 }
 
-body{
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 29%, rgba(0,212,255,1) 100%);
+.titulo_9{
+    text-align: center;
 }
 
-.gradiente{
+.gradient{
     width: 600px;
-    height: 200px;
+    height: 300px;
     background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
     margin: 0 auto;
 }
